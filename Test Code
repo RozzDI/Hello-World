@@ -1,0 +1,21 @@
+using System;
+
+namespace HelloWorld
+    
+{
+    class HelloWorld
+    {
+        static void Main()
+        {
+            const double pi = 3.14;
+            double[] r = { 24, 56, 3.33, 25.67 / 13.2, 88.8 };
+
+            for (int i = 0; i<= 4; i++)
+            Console.WriteLine("For a radius of {0}, The area is {1}", r[i], pi * r[i] * r[i]);
+            Console.ReadLine();
+        }
+            
+    }
+
+    
+}
